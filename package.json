@@ -2,7 +2,7 @@
   "name": "jest-another-rpg",
   "version": "1.0.0",
   "description": "A command line rpg game",
-  "main": "index.js",
+  "main": "apps.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/DanielArzani/jest-another-rpg#readme",
   "devDependencies": {
     "jest": "^27.4.4"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
   }
 }
